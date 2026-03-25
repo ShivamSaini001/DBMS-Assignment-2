@@ -1,0 +1,186 @@
+create table employees(
+  id int primary key,
+  name varchar(100),
+  department_id int, 
+  manager_id int,
+  project_id int
+);
+
+create table departments(
+  id int primary key,
+  department_name varchar(100)
+);
+
+create table orders(
+  order_id int primary key,
+  customer_id int
+);
+
+create table customers(
+  id int primary key,
+  name varchar(100)
+);
+
+create table students(
+  id int primary key,
+  name varchar(100),
+  course_id int,
+  advisor_id int
+);
+
+create table courses(
+  id int primary key,
+  course_name varchar(100)
+);
+
+create table advisors(
+  id int primary key,
+  name varchar(100)
+);
+
+create table books(
+  id int primary key,
+  title varchar(100),
+  author_id int
+);
+
+create table authors(
+  id int primary key,
+  name varchar(100)
+);
+
+create table products(
+  id int primary key,
+  product_name varchar(100),
+  category_id int,
+  supplier_id int
+);
+
+
+create table categories(
+  id int primary key,
+  category_name varchar(100)
+);
+
+create table suppliers(
+  id int primary key,
+  supplier_name varchar(100)
+);
+
+create table players(
+  id int primary key,
+  player_name varchar(100),
+  team_id int
+);
+
+create table projects(
+  id int primary key,
+  project_name varchar(100)
+);
+
+create table teams(
+  id int primary key,
+  team_name varchar(100)
+);
+
+
+
+
+insert into departments values
+-- (1, 'HR');
+-- (2, 'Engineering');
+-- (3, 'Sales');
+-- (4, 'Marketing');
+
+insert into Employees values
+-- (1, 'Alice', 1, NULL, 1);
+-- (2, 'Bob',2,1,1);
+-- (3, 'Charlie',3,2,2);
+-- (4, 'David',4,3,NULL);
+-- (5, 'Eve',NULL,NULL,NULL);
+
+insert into Orders values
+-- (101,1);
+-- (102,2);
+-- (103,3);
+-- (104,NULL);
+
+insert into customers values
+-- (1, 'John Doe');
+-- (2, 'Jane Smith');
+-- (3, 'Jim Bean');
+-- (4, 'Anna Baker');
+
+
+insert into students values
+-- (1, 'Tom',1,1);
+-- (2, 'Jerry',2,NULL);
+-- (3, 'Sara',NULL,2);
+
+insert into courses values
+-- (1, 'Math');
+-- (2, 'Science');
+-- (3, 'History');
+
+insert into advisors values
+-- (1, 'Dr. Stone');
+-- (2, 'Prof. Hill');
+
+
+insert into books values
+-- (1, 'Book A',1);
+-- (2, 'Book B',2);
+-- (3, 'Book C',NULL);
+
+insert into authors values
+-- (1, 'Author A');
+-- (2, 'Author B');
+-- (3, 'Author C');
+
+
+insert into products values
+-- (1, 'Product A',1,1);
+-- (2, 'Product B',2,NULL);
+-- (3, 'Product C',NULL,2);
+
+
+insert into categories values
+-- (1, 'Category A');
+-- (2, 'Category B');
+-- (3, 'Category C');
+
+insert into suppliers values
+-- (1, 'Supplier A');
+-- (2, 'Supplier B');
+
+
+insert into projects values
+-- (1, 'Project Alpha');
+-- (2, 'Project Beta');
+-- (3, 'Project Gamma');
+
+insert into teams values
+-- (1, 'Team A');
+-- (2, 'Team B');
+-- (3, 'Team C');
+
+insert into Players values
+-- (1, 'Player 1',1);
+-- (2, 'Player 2',2);
+-- (3, 'Player 3',NULL);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
