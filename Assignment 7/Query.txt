@@ -1,1 +1,26 @@
+CREATE TABLE Employees_USA(
+  EmpId INT PRIMARY KEY,
+  Name VARCHAR(30),
+  Department VARCHAR(30),
+  Salary INT
+);
+
+CREATE TABLE Employees_UK(
+  EmpId INT PRIMARY KEY,
+  Name VARCHAR(30),
+  Department VARCHAR(30),
+  Salary INT
+);
+
+Insert into Employees_USA VAlUES
+(1, 'Alice', 'HR', 60000);
+(2, 'Bob', 'IT', 70000);
+(3, 'Charlie', 'IT', 75000);
+(4, 'David', 'Finance', 80000);
+
+Insert into Employees_UK VAlUES
+(3, 'Charlie', 'IT', 75000);
+(4, 'David', 'Finance', 82000);
+(5, 'Emma', 'HR', 62000);
+(6, 'Frank', 'IT', 70000);
 
