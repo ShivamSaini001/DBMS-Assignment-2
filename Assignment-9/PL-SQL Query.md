@@ -23,16 +23,92 @@ Simple Rule:
 
 
 ### 2. Write a PL/SQL block to insert 3 records into Employees table and display the number of rows inserted using implicit cursor.
+Ans. 
+
+```SQL
+
+```
 
 ### 3. Write a PL/SQL block to increase salary by 5000 for employees with emp_id > 101 and display the number of rows updated.
+Ans. 
+
+```SQL
+
+```
+
 ### 4. Write a PL/SQL block to retrieve employee name and salary for emp_id = 101 using SELECT INTO and display the result.
+Ans. 
+
+```SQL
+
+```
+
 ### 5. Write a PL/SQL block to update the salary of employee with emp_id = 102 by 3000. Display a message “Record Updated” if the row is found, otherwise display “Record Not Found”.
+Ans. 
+
+```SQL
+
+```
+
 ### 6. Write a PL/SQL block to delete the employee with emp_id = 999. Display a message “No Record Found” if no rows are deleted, otherwise display “Record Deleted” using SQL%NOTFOUND.
+Ans. 
+
+```SQL
+
+```
+
 ### 7. Write a PL/SQL block to display emp_name and salary of all employees using an explicit cursor.
+Ans. 
+
+```SQL
+
+```
+
 ### 8. Write a PL/SQL block to display employees whose salary is greater than 60000 using explicit cursor.
+Ans. 
+
+```SQL
+
+```
+
 ### 9. Write a PL/SQL block to count number of employees using explicit cursor and display the count using %ROWCOUNT.
+Ans. 
+
+```SQL
+
+```
+
 ### 10. Write a PL/SQL block to check whether a cursor is open or not using %ISOPEN.
+Ans. 
+
+```SQL
+
+```
+
 ### 11. Write a trigger to ensure that salary of an employee cannot be less than 30000 before inserting a record.
+Ans. 
+
+```SQL
+
+```
+
 ### 12. Write a trigger to display a message after inserting a new employee record.
+Ans. 
+
+```SQL
+
+```
+
 ### 13. Write a trigger to prevent updating salary to a value less than 30000.
+Ans. 
+
+```SQL
+
+```
+
 ### 14. Write a trigger to display the employee name before deleting the record.
+Ans. 
+
+```SQL
+
+```
